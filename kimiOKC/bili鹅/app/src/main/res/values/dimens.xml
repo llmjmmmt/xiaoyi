@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础间距 -->
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_medium">24dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="spacing_xxlarge">64dp</dimen>
+    
+    <!-- 卡片尺寸 -->
+    <dimen name="card_elevation_small">2dp</dimen>
+    <dimen name="card_elevation_normal">4dp</dimen>
+    <dimen name="card_elevation_large">8dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_corner_radius_large">12dp</dimen>
+    
+    <!-- 视频卡片 -->
+    <dimen name="video_card_width">280dp</dimen>
+    <dimen name="video_card_height">160dp</dimen>
+    <dimen name="video_card_padding">12dp</dimen>
+    
+    <!-- 按钮尺寸 -->
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="button_height_normal">48dp</dimen>
+    <dimen name="button_height_large">60dp</dimen>
+    <dimen name="button_corner_radius">6dp</dimen>
+    <dimen name="button_padding_horizontal">20dp</dimen>
+    <dimen name="button_padding_vertical">12dp</dimen>
+    
+    <!-- 输入框尺寸 -->
+    <dimen name="input_height_normal">48dp</dimen>
+    <dimen name="input_height_large">60dp</dimen>
+    <dimen name="input_padding_horizontal">16dp</dimen>
+    <dimen name="input_padding_vertical">12dp</dimen>
+    <dimen name="input_corner_radius">8dp</dimen>
+    
+    <!-- 图标尺寸 -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_normal">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_xlarge">64dp</dimen>
+    
+    <!-- Logo尺寸 -->
+    <dimen name="logo_size_small">32dp</dimen>
+    <dimen name="logo_size_normal">48dp</dimen>
+    <dimen name="logo_size_large">64dp</dimen>
+    <dimen name="logo_size_xlarge">96dp</dimen>
+    
+    <!-- 文字尺寸 -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">24sp</dimen>
+    <dimen name="text_size_xxxlarge">32sp</dimen>
+    
+    <!-- 标题文字尺寸 -->
+    <dimen name="title_size_small">20sp</dimen>
+    <dimen name="title_size_normal">24sp</dimen>
+    <dimen name="title_size_large">28sp</dimen>
+    <dimen name="title_size_xlarge">32sp</dimen>
+    <dimen name="title_size_xxlarge">36sp</dimen>
+    
+    <!-- 导航栏尺寸 -->
+    <dimen name="top_bar_height">80dp</dimen>
+    <dimen name="bottom_bar_height">80dp</dimen>
+    <dimen name="navigation_item_padding">16dp</dimen>
+    
+    <!-- 播放器控制栏 -->
+    <dimen name="player_control_height">120dp</dimen>
+    <dimen name="player_control_padding">24dp</dimen>
+    <dimen name="player_progress_height">4dp</dimen>
+    <dimen name="player_progress_thumb_size">16dp</dimen>
+    
+    <!-- 视频网格布局 -->
+    <dimen name="video_grid_spacing">16dp</dimen>
+    <dimen name="video_grid_padding">24dp</dimen>
+    
+    <!-- 焦点边框 -->
+    <dimen name="focus_border_width">3dp</dimen>
+    <dimen name="focus_border_radius">8dp</dimen>
+    
+    <!-- 对话框 -->
+    <dimen name="dialog_width">400dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="dialog_corner_radius">12dp</dimen>
+    
+    <!-- 列表项 -->
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    
+    <!-- 搜索框 -->
+    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_width">400dp</dimen>
+    <dimen name="search_bar_radius">24dp</dimen>
+    
+    <!-- 用户头像 -->
+    <dimen name="avatar_size_small">32dp</dimen>
+    <dimen name="avatar_size_normal">48dp</dimen>
+    <dimen name="avatar_size_large">64dp</dimen>
+    <dimen name="avatar_size_xlarge">96dp</dimen>
+    
+    <!-- 标签 -->
+    <dimen name="tag_padding_horizontal">12dp</dimen>
+    <dimen name="tag_padding_vertical">6dp</dimen>
+    <dimen name="tag_corner_radius">16dp</dimen>
+    <dimen name="tag_text_size">14sp</dimen>
+    
+    <!-- 分页加载 -->
+    <dimen name="load_more_height">60dp</dimen>
+    <dimen name="load_more_padding">16dp</dimen>
+    
+    <!-- 空白页面 -->
+    <dimen name="empty_icon_size">120dp</dimen>
+    <dimen name="empty_text_size">18sp</dimen>
+    <dimen name="empty_padding">32dp</dimen>
+    
+    <!-- 错误页面 -->
+    <dimen name="error_icon_size">120dp</dimen>
+    <dimen name="error_text_size">18sp</dimen>
+    <dimen name="error_padding">32dp</dimen>
+    
+    <!-- 加载动画 -->
+    <dimen name="loading_size">48dp</dimen>
+    <dimen name="loading_stroke_width">4dp</dimen>
+    
+    <!-- 阴影 -->
+    <dimen name="shadow_elevation">8dp</dimen>
+    <dimen name="shadow_radius">8dp</dimen>
+    <dimen name="shadow_offset_x">0dp</dimen>
+    <dimen name="shadow_offset_y">4dp</dimen>
+    
+    <!-- 进度条 -->
+    <dimen name="progress_bar_height">4dp</dimen>
+    <dimen name="progress_bar_radius">2dp</dimen>
+    
+    <!-- 滑动条 -->
+    <dimen name="slider_height">4dp</dimen>
+    <dimen name="slider_thumb_size">16dp</dimen>
+    <dimen name="slider_track_height">4dp</dimen>
+    
+    <!-- 开关 -->
+    <dimen name="switch_width">48dp</dimen>
+    <dimen name="switch_height">28dp</dimen>
+    <dimen name="switch_thumb_size">20dp</dimen>
+    
+    <!-- 复选框 -->
+    <dimen name="checkbox_size">24dp</dimen>
+    <dimen name="checkbox_radius">4dp</dimen>
+    
+    <!-- 单选框 -->
+    <dimen name="radio_button_size">24dp</dimen>
+    
+    <!-- 分割线 -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_padding">16dp</dimen>
+    
+    <!-- 滚动条 -->
+    <dimen name="scrollbar_size">4dp</dimen>
+    <dimen name="scrollbar_radius">2dp</dimen>
+    <dimen name="scrollbar_margin">2dp</dimen>
+    
+    <!-- 工具提示 -->
+    <dimen name="tooltip_padding">8dp</dimen>
+    <dimen name="tooltip_radius">4dp</dimen>
+    <dimen name="tooltip_text_size">12sp</dimen>
+    
+    <!-- 通知 -->
+    <dimen name="notification_padding">16dp</dimen>
+    <dimen name="notification_radius">8dp</dimen>
+    <dimen name="notification_text_size">14sp</dimen>
+    
+    <!-- 指示器 -->
+    <dimen name="indicator_size">8dp</dimen>
+    <dimen name="indicator_spacing">4dp</dimen>
+    <dimen name="indicator_radius">4dp</dimen>
+    
+</resources>

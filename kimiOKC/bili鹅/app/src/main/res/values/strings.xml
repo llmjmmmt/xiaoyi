@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">bili鹅</string>
+    <string name="app_description">专为电视优化的B站客户端</string>
+    
+    <!-- 通用 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="back">返回</string>
+    <string name="loading">加载中…</string>
+    <string name="retry">重试</string>
+    <string name="error">错误</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="network_error">网络连接失败</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_more_data">没有更多数据了</string>
+    
+    <!-- 导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_discover">发现</string>
+    <string name="nav_profile">我的</string>
+    
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="login_title">登录B站账号</string>
+    <string name="login_qr">扫码登录</string>
+    <string name="login_qr_desc">使用手机B站APP扫描二维码</string>
+    <string name="login_skip">暂不登录</string>
+    <string name="login_skip_desc">以游客身份浏览（部分功能受限）</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="logout_confirm">确定要退出登录吗？</string>
+    
+    <!-- 视频 -->
+    <string name="video">视频</string>
+    <string name="video_player">视频播放器</string>
+    <string name="video_play">播放</string>
+    <string name="video_pause">暂停</string>
+    <string name="video_stop">停止</string>
+    <string name="video_replay">重播</string>
+    <string name="video_next">下一个</string>
+    <string name="video_previous">上一个</string>
+    <string name="video_fullscreen">全屏</string>
+    <string name="video_exit_fullscreen">退出全屏</string>
+    <string name="video_quality">画质</string>
+    <string name="video_speed">播放速度</string>
+    <string name="video_danmaku">弹幕</string>
+    <string name="video_danmaku_on">弹幕开</string>
+    <string name="video_danmaku_off">弹幕关</string>
+    <string name="video_volume">音量</string>
+    <string name="video_brightness">亮度</string>
+    <string name="video_progress">进度</string>
+    <string name="video_duration">时长</string>
+    <string name="video_loading">视频加载中…</string>
+    <string name="video_load_failed">视频加载失败</string>
+    <string name="video_not_support">该视频格式不支持</string>
+    <string name="video_network_error">网络错误，请检查网络连接</string>
+    
+    <!-- 搜索 -->
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索视频、UP主…</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_clear_history">清空搜索历史</string>
+    <string name="search_no_result">没有找到相关结果</string>
+    <string name="search_suggestion">搜索建议</string>
+    
+    <!-- 用户 -->
+    <string name="user">用户</string>
+    <string name="user_info">用户信息</string>
+    <string name="user_avatar">头像</string>
+    <string name="user_name">用户名</string>
+    <string name="user_level">等级</string>
+    <string name="user_vip">大会员</string>
+    <string name="user_fans">粉丝</string>
+    <string name="user_follow">关注</string>
+    <string name="user_videos">投稿</string>
+    <string name="user_favorites">收藏</string>
+    <string name="user_history">历史记录</string>
+    <string name="user_later">稍后再看</string>
+    
+    <!-- 分区 -->
+    <string name="category_all">全部</string>
+    <string name="category_anime">动画</string>
+    <string name="category_game">游戏</string>
+    <string name="category_music">音乐</string>
+    <string name="category_dance">舞蹈</string>
+    <string name="category_life">生活</string>
+    <string name="category_food">美食</string>
+    <string name="category_tech">科技</string>
+    <string name="category_fashion">时尚</string>
+    <string name="category_entertainment">娱乐</string>
+    <string name="category_movie">影视</string>
+    <string name="category_documentary">纪录片</string>
+    
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="settings_general">通用设置</string>
+    <string name="settings_playback">播放设置</string>
+    <string name="settings_quality">默认画质</string>
+    <string name="settings_danmaku">弹幕设置</string>
+    <string name="settings_network">网络设置</string>
+    <string name="settings_cache">缓存设置</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本信息</string>
+    <string name="settings_clear_cache">清空缓存</string>
+    <string name="settings_cache_size">缓存大小</string>
+    <string name="settings_auto_quality">自动画质</string>
+    <string name="settings_auto_quality_desc">根据网络状况自动选择画质</string>
+    <string name="settings_wifi_only">仅WiFi播放</string>
+    <string name="settings_wifi_only_desc">仅在WiFi网络下播放视频</string>
+    
+    <!-- 收藏 -->
+    <string name="favorite">收藏</string>
+    <string name="favorite_add">添加收藏</string>
+    <string name="favorite_remove">取消收藏</string>
+    <string name="favorite_added">已添加收藏</string>
+    <string name="favorite_removed">已取消收藏</string>
+    <string name="favorite_failed">收藏失败</string>
+    <string name="favorite_create">新建收藏夹</string>
+    <string name="favorite_manage">管理收藏夹</string>
+    
+    <!-- 分享 -->
+    <string name="share">分享</string>
+    <string name="share_to">分享到</string>
+    <string name="share_copy_link">复制链接</string>
+    <string name="share_copy_success">链接已复制</string>
+    
+    <!-- 评论 -->
+    <string name="comment">评论</string>
+    <string name="comment_count">评论数</string>
+    <string name="comment_hot">热门评论</string>
+    <string name="comment_new">最新评论</string>
+    <string name="comment_reply">回复</string>
+    <string name="comment_like">点赞</string>
+    <string name="comment_no_data">还没有评论，快来抢沙发</string>
+    
+    <!-- 弹幕 -->
+    <string name="danmaku">弹幕</string>
+    <string name="danmaku_send">发送弹幕</string>
+    <string name="danmaku_input_hint">发送弹幕…</string>
+    <string name="danmaku_font_size">字体大小</string>
+    <string name="danmaku_speed">滚动速度</string>
+    <string name="danmaku_opacity">透明度</string>
+    <string name="danmaku_area">显示区域</string>
+    <string name="danmaku_filter">弹幕过滤</string>
+    
+    <!-- 时间 -->
+    <string name="time_just_now">刚刚</string>
+    <string name="time_minutes_ago">分钟前</string>
+    <string name="time_hours_ago">小时前</string>
+    <string name="time_days_ago">天前</string>
+    <string name="time_weeks_ago">周前</string>
+    <string name="time_months_ago">个月前</string>
+    <string name="time_years_ago">年前</string>
+    
+    <!-- 统计 -->
+    <string name="play_count">播放量</string>
+    <string name="danmaku_count">弹幕数</string>
+    <string name="like_count">点赞</string>
+    <string name="coin_count">投币</string>
+    <string name="collect_count">收藏</string>
+    <string name="share_count">分享</string>
+    
+    <!-- 帮助 -->
+    <string name="help">帮助</string>
+    <string name="help_feedback">意见反馈</string>
+    <string name="help_contact">联系我们</string>
+    <string name="help_privacy">隐私政策</string>
+    <string name="help_terms">用户协议</string>
+    
+    <!-- 遥控器操作提示 -->
+    <string name="tv_remote_up">上键</string>
+    <string name="tv_remote_down">下键</string>
+    <string name="tv_remote_left">左键</string>
+    <string name="tv_remote_right">右键</string>
+    <string name="tv_remote_ok">确定键</string>
+    <string name="tv_remote_back">返回键</string>
+    <string name="tv_remote_menu">菜单键</string>
+    <string name="tv_remote_home">主页键</string>
+    
+</resources>

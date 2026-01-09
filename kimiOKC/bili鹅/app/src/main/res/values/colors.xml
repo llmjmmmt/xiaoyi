@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- B站品牌色 -->
+    <color name="bilibili_pink">#FFFB7299</color>
+    <color name="bilibili_pink_dark">#FFE64386</color>
+    <color name="bilibili_pink_light">#FFFF99C5</color>
+    
+    <!-- 主题色 -->
+    <color name="primary">#FFFB7299</color>
+    <color name="primary_dark">#FFE64386</color>
+    <color name="primary_light">#FFFF99C5</color>
+    
+    <!-- 背景色 -->
+    <color name="background">#FF29303A</color>
+    <color name="background_dark">#FF1A1A1A</color>
+    <color name="background_light">#FF3A4453</color>
+    
+    <!-- 文字色 -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+    
+    <!-- 分割线 -->
+    <color name="divider">#1FFFFFFF</color>
+    
+    <!-- 焦点色 -->
+    <color name="focus">#FFFB7299</color>
+    
+    <!-- 错误色 -->
+    <color name="error">#FFE53935</color>
+    
+    <!-- 成功色 -->
+    <color name="success">#FF43A047</color>
+    
+    <!-- 警告色 -->
+    <color name="warning">#FFFFB300</color>
+    
+    <!-- 信息色 -->
+    <color name="info">#FF2196F3</color>
+    
+    <!-- 黑色和白色 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 灰色系 -->
+    <color name="gray_50">#FFFAFAFA</color>
+    <color name="gray_100">#FFF5F5F5</color>
+    <color name="gray_200">#FFEEEEEE</color>
+    <color name="gray_300">#FFE0E0E0</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_900">#FF212121</color>
+    
+    <!-- 视频播放器控制栏背景 -->
+    <color name="player_control_background">#B3000000</color>
+    
+    <!-- 弹幕颜色 -->
+    <color name="danmaku_white">#FFFFFFFF</color>
+    <color name="danmaku_red">#FFFF0000</color>
+    <color name="danmaku_blue">#FF0000FF</color>
+    <color name="danmaku_green">#FF00FF00</color>
+    <color name="danmaku_yellow">#FFFFFF00</color>
+    <color name="danmaku_purple">#FF800080</color>
+    <color name="danmaku_cyan">#FF00FFFF</color>
+    
+</resources>

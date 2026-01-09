@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用主题 -->
+    <style name="Theme.BiliGo" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- 背景颜色 -->
+        <item name="android:background">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        
+        <!-- 主要颜色 -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/primary</item>
+        
+        <!-- 文字颜色 -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- 窗口属性 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- 导航栏 -->
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        
+        <!-- 禁用标题栏 -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        
+        <!-- Leanback主题 -->
+        <item name="android:windowOverscan">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+    
+    <!-- 全屏主题（用于视频播放） -->
+    <style name="Theme.BiliGo.Fullscreen" parent="Theme.BiliGo">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+    </style>
+    
+    <!-- Leanback搜索主题 -->
+    <style name="Theme.Leanback" parent="Theme.BiliGo">
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+    
+    <!-- 设置主题 -->
+    <style name="Theme.BiliGo.Settings" parent="Theme.BiliGo">
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+    
+    <!-- 对话框主题 -->
+    <style name="Theme.BiliGo.Dialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+    
+    <!-- 卡片样式 -->
+    <style name="CardStyle" parent="">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:radius">8dp</item>
+    </style>
+    
+    <!-- 按钮样式 -->
+    <style name="ButtonStyle" parent="">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:radius">6dp</item>
+    </style>
+    
+    <!-- 输入框样式 -->
+    <style name="EditTextStyle" parent="">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:radius">6dp</item>
+    </style>
+    
+    <!-- 文字样式 -->
+    <style name="TextStyle.Title" parent="">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextStyle.Subtitle" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <style name="TextStyle.Body" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <style name="TextStyle.Caption" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    
+    <!-- 列表项样式 -->
+    <style name="ListItemStyle" parent="">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <!-- Leanback组件样式 -->
+    <style name="Widget.Leanback.Header" parent="">
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <style name="Widget.Leanback.Row" parent="">
+        <item name="android:background">@color/background</item>
+    </style>
+    
+    <!-- 焦点样式 -->
+    <style name="FocusStyle" parent="">
+        <item name="android:background">@color/focus</item>
+    </style>
+    
+</resources>
